@@ -1,6 +1,6 @@
 # ecommerce-backend-orm
 
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated \$29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms is important, as a Full Stack Developer.
+Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms is important, as a Full Stack Developer.
 
 This application is the back end for an e-commerce site. It uses an Express.js API and configured using Sequelize to interact with a MySQL database.
 
@@ -60,23 +60,27 @@ THEN I am able to successfully create, update, and delete data in my database
 
 - Insomnia - "POST Categories", "POST Products", "POST Tags":
 
-![Insomnia - “GET Categories by ID”](./assets/images/get-id-categories.png)
+![Insomnia - “GET Categories by ID”](./assets/images/post-categories.png)
 
-![Insomnia - “GET Products by ID”](./assets/images/get-id-products.png)
+![Insomnia - “GET Products by ID”](./assets/images/post-products.png)
 
-![Insomnia - “GET Tags by ID”](./assets/images/get-id-tag.png)
+![Insomnia - “GET Tags by ID”](./assets/images/post-tag.png)
 
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+- Insomnia - "PUT Categories by ID", "PUT Products by ID", "PUT Tags by ID":
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
+![Insomnia - "PUT Categories by ID”](./assets/images/put-categories.png)
 
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
+![Insomnia - "PUT Products by ID”](./assets/images/put-products.png)
 
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
+![Insomnia - “PUT Tags by ID”](./assets/images/put-tag.png)
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+- Insomnia - "DELETE Categories by ID", "DELETE Products by ID", "DELETE Tags by ID":
 
-![Application Start Prompts Screenshot](/assets/images/start.png)
+![Insomnia - "DELETE Categories by ID”](./assets/images/del-categories.png)
+
+![Insomnia - "DELETE Products by ID”](./assets/images/del-products.png)
+
+![Insomnia - "DELETE Tags by ID”](./assets/images/del-tag.png)
 
 # Walk-through Video of Application Interaction:
 
