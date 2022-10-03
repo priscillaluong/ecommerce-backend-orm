@@ -1,6 +1,6 @@
 # ecommerce-backend-orm
 
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms is important, as a Full Stack Developer.
+Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms is important as a Full Stack Developer.
 
 This application is the back end for an e-commerce site. It uses an Express.js API and configured using Sequelize to interact with a MySQL database.
 
